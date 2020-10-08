@@ -1,0 +1,214 @@
+.xText{
+    font-size: 1.5em;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.table{
+    font-size: 1.5em;
+}
+
+td{
+    align-content: center;
+    text-align: center;
+}
+
+.banner{
+    background-color: yellow;
+    height: 20%;
+    margin-bottom:3%;
+}
+
+.banner img{
+    height: 100%;
+    margin-left: 40%;
+}
+
+.yazi{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60%;
+    width: 90%;
+    font-size: 1.5em;
+    resize: vertical;
+}
+
+.buton{
+    padding: 1%;
+    margin-right: 5%;
+    font-size: 1.5em;
+    float: inline-end;
+    border-style: dotted;
+    margin-bottom: 2%;
+    
+}
+
+.textButon{
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: blueviolet;
+    border-width: 3%;
+    font-size: x-large;
+    margin: 0.1%;
+}
+
+.panelButon{
+    font-size: 1.5em;
+    border-style: solid;
+    width: 10%;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.panelContainer{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.menuClickContainer{
+    width: 100%;
+}
+
+.menuClick{
+    width: 10%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-top: -8%;
+    background-color: #ffff0050;
+    margin-bottom: 1%;
+    font-size: 1em;
+    border-style: solid;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.menuClick:hover{
+    border-radius: 25px;
+    border-style: solid;
+    border-color: orange;
+    border-width: 2%;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menuButon{
+    font-size: 1.5em;
+    width:10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.menuButon:hover{
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.menuContainer{
+    display: none;
+    margin-left: %;
+    padding: 2%;
+    margin-top: -3%;
+    width: 100%;
+    background-color: #ffd000;
+    position: fixed;
+    border-top-color: white;
+    border-top-style: solid;
+    
+}
+
+
+.textButonContainer{
+    margin-left: 5%;
+}
+
+.contain{
+    font-size: large;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.5em;
+}
+
+.ustFoto{
+    height: 40%;
+    border-radius: 25px;
+    border-color: darkviolet;
+}
+
+
+
+.titleStyle{
+    font-size: 2em;
+    font-weight: bold;
+    color: maroon;
+    margin: 1%;
+}
+
+.yaziContainer{
+    padding: 5%;
+    font-size: x-large;
+    color: brown;
+    background-color: linen;
+    border-style: dotted;
+    border-color: white;
+}
+
+.disYaziContainer{
+    padding: 5%;
+    background-color:#c9c9c955;
+}
+
+.yazilarTable{
+    width: 48%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color:#c9c9c955;
+    float: left;
+}
+
+.yazilarTableRow{
+    width: 20%;
+    padding: 1%;
+}
+
+.yazilarTableImaj{
+    height: 250px;
+    border-radius: 25px;
+}
+
+.yazilarTableCol{
+    width: 40%;
+}
+
+.yazilarTableBaslik{
+    font-size: 2em;
+    margin-bottom:2%;
+    color: cornflowerblue;
+}
+
+.yazilarTableIcerik{
+    font-size: 1.15em;
+    padding: 1%;
+}
+
+.basyazi{
+    font-size: 1em;
+    margin-left: 5%;
+}

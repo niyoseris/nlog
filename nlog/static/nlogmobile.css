@@ -1,0 +1,210 @@
+.xText{
+    font-size: 3em;
+    width: 100%;
+    margin-bottom: 1%;
+    border-style:solid;
+    border-width: 1%
+    border-color: orange;
+}
+
+.table{
+    font-size: 1.5em;
+    margin-top: 20%;
+}
+
+td{
+    align-content: center;
+    text-align: center;
+}
+
+.banner{
+background-color: yellow;
+height: 10%;
+padding: 1%;
+width: 100%;
+}
+
+.banner img{
+height: 100%;
+float: right;
+padding-right: 3%;
+}
+
+.yazi{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60%;
+    width: 90%;
+    font-size: 1.5em;
+    resize: vertical;
+}
+
+.buton{
+    padding: 5%;
+    margin: 5%;
+    font-size: xx-large;
+    float: inline-end;
+    border-style: dotted;
+    
+}
+
+.textButon{
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: blueviolet;
+    border-width: 3%;
+    font-size: 3em;
+    margin: 1%;
+    padding: 2%;
+}
+
+.panelButon{
+    font-size: 1.5em;
+    border-style: solid;
+    width: 10%;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.panelContainer{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.menuClickContainer{
+    width: 100%;
+}
+
+.menuClick{
+    padding: 3%;
+    margin-top: -15%;
+    border-style: none;
+    color: orange;
+    background-color: #FFA50050;
+    font-size: 3em;
+    font-weight: bolder;
+    border-radius: 25px;
+    border-style: dotted;
+    cursor: pointer;
+    position: fixed;
+}
+
+.menuClick:hover{
+    border-radius: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2%;
+}
+
+.menuButon{
+    font-size: 2em;
+    margin: 1%;
+    border-style: dotted;
+    background-color: #fafafa;
+    cursor: pointer;
+    color: orange;
+    font-weight: bold;
+    padding: 4%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menuButon:hover{
+    background-color: lightblue;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.menuContainer{
+    display: none;
+    font-size: 1.5em;
+    position: fixed;
+    background-color: #c9c9c970;
+}
+
+
+.textButonContainer{
+    margin-left: 5%;
+}
+
+.contain{
+    font-size: 3em;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.ustFoto{
+    width: 60%;
+    border-radius: 25px;
+    border-color: darkviolet;
+}
+
+
+
+.titleStyle{
+    font-size: 3em;
+    font-weight: bold;
+    color: maroon;
+    margin: 1%;
+}
+
+.yaziContainer{
+    padding: 5%;
+    font-size: 1em;
+    color: brown;
+    background-color: linen;
+    border-style: dotted;
+    border-color: white;
+}
+
+.disYaziContainer{
+    padding: 5%;
+    background-color:#c9c9c955;
+}
+
+.yazilarTable{
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color:#c9c9c955;
+    float: left;
+}
+
+.yazilarTableRow{
+    width: 20%;
+    padding: 1%;
+}
+
+.yazilarTableImaj{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.yazilarTableCol{
+    width: 40%;
+}
+
+.yazilarTableBaslik{
+    font-size: 3em;
+    margin: 2%;
+    color: cornflowerblue;
+}
+
+.yazilarTableIcerik{
+    font-size: medium;
+    padding: 1%;
+}
+
+.basyazi{
+    font-size: 1.5em;
+    margin-left: 5%;
+}
