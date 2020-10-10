@@ -173,6 +173,11 @@ def man():
 @app.route("/yazEkle", methods=['POST'])
 def yazEkle():
     if request.method == 'POST':
+        if kimdirBeBu():
+            pass
+        else:
+            return "Mahalleyeee"
+        
         yazi = request.form.get("yaziText").replace("\r\n", "<br>").replace("\n", "<br>")
         baslik = request.form.get("yaziBaslik")
         ima = request.form.get("kapakGorseli")
